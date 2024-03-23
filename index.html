@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <title>Trying all CSS into action</title>
+  </head>
+  <style>
+    * {
+      font-family: "Tangerine", serif;
+      font-size: 48px;
+      text-shadow: 4px 4px 4px #aaa;
+    }
+    .p2,
+    .p4,
+    .p1,
+    .p3 {
+      color: rgb(28 95 191);
+      font-size: 34px;
+      font-weight: bold;
+      background-color: rgb(157, 229, 229);
+      border: 5px solid rgb(210, 84, 180);
+      border-radius: 20px;
+      padding: 7px;
+      margin: 10px auto;
+      width: 600px;
+      text-align: center;
+    }
+
+    /* Define the normal (non-hover) styles for the link */
+    .p3 a {
+      color: blue; /* Set the text color */
+      text-decoration: none; /* Remove the underline */
+    }
+    .p3 a:hover {
+      color: rgb(30, 8, 8); /* Change text color on hover */
+      background-color: rgb(200, 121, 200);
+      border: 2px;
+      border-radius: 10px;
+      margin: 2px auto;
+      width: 300px;
+    }
+
+    /* Updated button styles */
+    .button {
+      font-size: 20px;
+      border: 2px solid rgb(229, 27, 27); /* Set border width and style */
+      border-radius: 4px;
+      padding: 15px 30px;
+      margin: 5px auto;
+    }
+    .p4 button:hover {
+      color: red;
+      text-decoration: underline;
+    }
+  </style>
+  <body>
+    <h3>Experiments with CSS</h3>
+    <p class="p1">
+      Hello there guys , I am Prateek and today i am gonna do some experiments
+      with all the CSS that i have learnt so far.
+    </p>
+    <p class="p2">so what are you waiting for ?</p>
+    <p class="p3">
+      <a href="https://google.com" target="_blank">Lets get </a>
+    </p>
+    <div class="p4"><button class="button">Press me</button></div>
+  </body>
+</html>
